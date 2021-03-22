@@ -1,0 +1,174 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --contact-footer-text-color: rgba(255,255,255,0.6);
+    --dark-bg-color: #2F303A;
+    --primary-bg-color: #FFFFFF;
+    --section-bg-color: #F5F4FA;
+}
+
+body {
+background-color: var(--primary-bg-color);
+color: var(--primary-text-color);
+font-family: 'roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+.link {
+text-decoration: none;
+}
+
+.list {
+list-style: none;
+}
+
+.button {
+color: var(--primary-bg-color);
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+cursor: pointer;
+font-family: 'roboto', sans-serif;
+}
+
+.button:hover,
+.button:focus {
+background-color: #188CE8;}
+
+.filters .button {
+color: var(--title-text-color);
+background-color: var(--section-bg-color);
+font-weight: 500;
+line-height: 1.63;
+}
+
+.filters .button:hover,
+.filters .button:focus {
+color: var(--primary-bg-color);
+background-color: var(--accent-color);
+}
+
+.contact .item:hover,
+.contact .item:focus {
+color: var(--accent-color);
+}
+
+.logo {
+font-family: 'raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
+
+.footer .logo {
+color: var(--primary-bg-color);
+}
+
+.accent-logo {
+color: var(--accent-color);
+}
+
+.site-nav .link {
+color: var(--title-text-color);
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color)
+}
+
+.contact .item {
+color: var(--primary-text-color);
+font-weight: 500;
+letter-spacing: 0.02em;
+font-style: normal;
+}
+
+.page-title {
+color: var(--primary-bg-color);
+background-color: var(--dark-bg-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+}
+
+.advantages-title {
+color: var(--title-text-color);
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.advantages .advantages-text {
+line-height: 1.71;
+}
+
+.work .section-title,
+.team .section-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+.team {
+background-color: var(--section-bg-color);
+}
+
+.employee {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+
+.team .text-team {
+font-size: 16px;
+line-height: 1.18;
+}
+
+.footer .item {
+color: var(--contact-footer-text-color);
+line-height: 1.71;
+}
+
+
+.address p {
+color: var(--primary-bg-color);
+line-height: 1.71;
+font-style: normal;
+}
+
+.footer {
+background-color: var(--dark-bg-color);
+}
+
+.portfolio-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.88;
+}
