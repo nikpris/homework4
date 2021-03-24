@@ -127,11 +127,6 @@ margin-right: auto;
 .site-nav .item-nav:not(:last-child) {
     margin-right: 50px;
 }
-    
-.item-nav {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -373,7 +368,7 @@ color: var(--accent-color);
 .filters {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
     
 .main-portfolio .container {
