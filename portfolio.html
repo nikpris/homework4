@@ -20,14 +20,32 @@
             <nav class="navigation">
                 <a class="logo link" href="./index.html"> <span class="accent-logo">Web</span>Studio</a>
                 <ul class="site-nav list">
-                    <li class="item-nav"> <a class="item-nav link" href="./index.html">Студия</a></li>
-                    <li class="item-nav"> <a class="item-nav link current" href="./portfolio.html">Портфолио</a></li>
-                    <li class="item-nav"> <a class="item-nav link" href="">Контакты</a></li>
+                    <li class="item-nav">
+                        <a class="item-nav link current" href="./index.html">Студия</a>
+                    </li>
+                    <li class="item-nav">
+                        <a class="item-nav link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="item-nav">
+                        <a class="item-nav link" href="">Контакты</a>
+                    </li>
                 </ul>
             </nav> 
             <ul class="contact list">
-                <li class="contact-item"><a class="item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contact-item"><a class="item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-item">
+                    <a class="link-contact link" href="mailto:info@devstudio.com">
+                        <svg class="icon" width="16" height="12">
+                            <use href="./images/svg/sprite.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com
+                    </a>
+                </li>
+                <li class="contact-item">
+                    <a class="link-contact link" href="tel:+380961111111">
+                        <svg class="icon" width="10" height="16">
+                            <use href="./images/svg/sprite.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -43,7 +61,7 @@
                     <li class="item-filter"><button type="button" class="button filter">Веб-сайты</button></li>
                 </ul>            
                 <ul class="portfolio list grid">
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project001.jpg" alt="ноутбук с открытым сайтом" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Технокряк</h2>
@@ -51,7 +69,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project002.jpg" alt="фото двух баскетболистов с мячём" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
@@ -59,7 +77,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project003.jpg" alt="логотип ресторана" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Ресторан Seafood</h2>
@@ -67,7 +85,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project004.jpg" alt="наушники чёрного цвета" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Проект Prime</h2>
@@ -75,7 +93,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project005.jpg" alt="две коробки, белого и бежевого цвета" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Проект Boxes</h2>
@@ -83,7 +101,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project006.jpg" alt="монитор с включённым сайтом" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Inspiration has no Borders</h2>
@@ -91,7 +109,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project007.jpg" alt="книга с открытым разворотом" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Издание Limited edition</h2>
@@ -99,7 +117,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project008.jpg" alt="бирка с рекламным слоганом" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Проект LAB</h2>
@@ -107,7 +125,7 @@
                         </div>
                         </a>
                     </li>
-                    <li class="grid-item">
+                    <li class="grid-item portfolio-item">
                         <a class="link" href=""><img src="./images/portfolio/project009.jpg" alt="работающий на ноутбуке человек" width="370" height="294">
                         <div class="portfolio-content">
                             <h2 class="portfolio-title">Growing Business</h2>
@@ -123,16 +141,52 @@
 
 
     <footer class="footer">
-        <div class="container">
-            <a class="logo link" href="./index.html"> <span class="accent-logo">Web</span>Studio</a>
-            <address class="address">
-                <p class="street-address"> г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="contact list">
-                    <li class="item-address"> <a class="item link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                    <li class="item-address"> <a class="item link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+        <ul class="container list grid">
+            <li class="grid-item footer-grid">
+                <a class="logo link" href="./index.html"> <span class="accent-logo">Web</span>Studio</a>
+                <address class="address">
+                    <p class="street-address"> г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="contact list">
+                        <li class="item-address"> <a class="item link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                        <liclass="item-address"> <a class="item link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+                    </ul>
+                </address>
+            </li>
+            <li class="grid-item footer-grid">
+                <h3 class="footer-title">Присоединяйтесь</h3>
+                <ul class="list social-icons">
+                    <li class="social-icons-item">
+                        <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/svg/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item">
+                        <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/svg/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item">
+                        <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/svg/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item">
+                        <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/svg/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
-        </div>
+
+            </li>
+        <ul>
     </footer>
     
 </body>
