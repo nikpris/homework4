@@ -234,12 +234,13 @@ color: var(--accent-color);
     margin-bottom: 50px;
 }
 
-
-
         /* section hero */
 
 .hero {
     background-color: var(--dark-bg-color);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
   }
             
 .hero-container {
@@ -251,6 +252,7 @@ color: var(--accent-color);
     background-image: linear-gradient(to right,
     rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/hero-bg.jpg);
+    background-position: center;
     height: 600px;
     max-width: 1600px;
    }
@@ -372,8 +374,7 @@ color: var(--accent-color);
 }
 
 .team-item-content {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 31px;
     border: 1px solid var(--section-bg-color);
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -491,10 +492,10 @@ color: var(--accent-color);
 }
 
 .footer-title {
-        color: var(--primary-bg-color);
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-bottom: 20px;
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .footer .social-icons {
@@ -502,13 +503,15 @@ color: var(--accent-color);
     justify-content: flex-start;  
 }
 
-.footer-grid:nth-child(2) {
-        padding-top: 12px;
+.footer-block {
+    display: flex;
+    align-items: baseline;
 }
 
-.footer .grid-item {
-        --grd-item: 2;
+.footer-grid + .footer-grid {
+    margin-left: 70px;
 }
+
 
         /* portfolio filter */
 
@@ -541,6 +544,9 @@ color: var(--accent-color);
 .filters .button:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
     
 .item-filter:not(:last-child) {
